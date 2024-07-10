@@ -213,7 +213,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items:center;
+  align-items: center;
   margin: 10px auto;
   text-align: center;
 }
@@ -224,7 +224,7 @@ p {
   font-size: 24px;
 }
 
-.target-section .target-desciption>p {
+.target-section .target-desciption > p {
   font-size: 14px;
   padding: 20px 40px;
 }
@@ -233,12 +233,10 @@ p {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 10px;
+  padding: 20px;
   gap: 13px;
-
 }
 .common-css {
-  text-align: left;
   padding: 18px;
   height: 250px;
   width: 32%;
@@ -250,33 +248,29 @@ p {
 }
 .target-leng .common-css p {
   color: rgb(13, 19, 33);
-  text-align:left;
+  text-align: left;
   font-size: 14px;
+}
+.target-leng .common-css h2 {
+  font-size: 20px;
 }
 .target-leng .common-css a {
   color: rgb(13, 19, 33);
-  /* padding: 3px 0px 10px 0px; */
-}
-.target-leng .common-css h2{
-  font-size: 20px;
 }
 .target-leng .html-section {
   border-radius: 12px;
   background: rgba(255, 76, 30, 0.05);
-  
 }
 .target-leng .css-section {
   background-color: rgba(0, 76, 232, 0.05);
   border-radius: 12px;
-  
 }
 .target-leng .javascript-section {
   background-color: rgba(255, 223, 0, 0.05);
   border-radius: 12px;
-  
 }
-.last-section{
-  background-image:url(./B10A1-Challenge-Begins/assets/handshake.jpg);
+.last-section {
+  background-image: url(./B10A1-Challenge-Begins/assets/handshake.jpg);
   width: 90%;
   height: 200px;
   margin: 15px auto;
@@ -289,9 +283,23 @@ p {
   color: white;
   border-radius: 10px;
 }
-.last-section input{
+.last-section input {
   padding: 10px;
   border-radius: 5px;
   border: none;
+}
+/* footer section */
+footer {
+  width: 100%;
+  border-radius: 16px;
 
+  background: rgba(13, 19, 33, 0.03);
+}
+.footer-1 {
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
 }
